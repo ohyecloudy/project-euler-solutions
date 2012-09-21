@@ -16,3 +16,6 @@
 
 ## profile
 ![project euler profile](http://projecteuler.net/profile/ohyecloudy.png)
+
+## license
+[CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
