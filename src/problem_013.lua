@@ -64,7 +64,7 @@ big_num.mt.__add = big_num.add
 
 local sum = big_num.new("0")
 
-for line in io.lines("problem-013-input.txt") do
+for line in io.lines("problem_013_input.txt") do
 
 	local src = big_num.new(line)
 	sum = sum + src

@@ -53,7 +53,7 @@ do
 	end
 end
 
-for line in io.lines("problem-067-input.txt") do
+for line in io.lines("problem_067_input.txt") do
 
 	-- 바로 max_total에 더할 경우 다음 숫자에서 참조하기 때문에
 	-- 현재 라인 숫자를 더한 걸 따로 유지하고 끝나면 max_total에 쓴다
