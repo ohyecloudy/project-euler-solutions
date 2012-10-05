@@ -13,6 +13,7 @@
 ## 사용 언어
 
 * [Lua](http://www.lua.org/)
+* [Java](http://www.java.com/)
 
 ## profile
 ![project euler profile](http://projecteuler.net/profile/ohyecloudy.png)
