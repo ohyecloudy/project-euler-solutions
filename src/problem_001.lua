@@ -6,6 +6,8 @@ Project Euler - problem 1
 created by ohyecloudy
 * https://github.com/ohyecloudy/project-euler-solutions
 
+2012.09.21
+
 --]]
 
 local sum = 0

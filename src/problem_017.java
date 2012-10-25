@@ -4,6 +4,8 @@
  * 
  * @author ohyecloudy
  *   https://github.com/ohyecloudy/project-euler-solutions
+ *
+ * 2012.10.08
  */
 
 class NumberConverter {

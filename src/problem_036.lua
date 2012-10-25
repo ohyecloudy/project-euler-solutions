@@ -6,6 +6,8 @@ Project Euler - problem 36
 created by ohyecloudy
 * https://github.com/ohyecloudy/project-euler-solutions
 
+2012.09.27
+
 --]]
 
 function base2_from(base10)

@@ -6,6 +6,8 @@ Project Euler - problem 24
 created by ohyecloudy
 * https://github.com/ohyecloudy/project-euler-solutions
 
+2012.09.25
+
 --]]
 
 -- 자리 바꿈으로 permutation list를 구할 수 있으나 sort된 permutation을

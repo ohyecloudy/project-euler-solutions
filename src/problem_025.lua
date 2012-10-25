@@ -6,6 +6,8 @@ Project Euler - problem 25
 created by ohyecloudy
 * https://github.com/ohyecloudy/project-euler-solutions
 
+2012.10.01
+
 --]]
 
 

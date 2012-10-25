@@ -6,6 +6,8 @@ Project Euler - problem 22
 created by ohyecloudy
 * https://github.com/ohyecloudy/project-euler-solutions
 
+2012.09.24
+
 --]]
 
 
