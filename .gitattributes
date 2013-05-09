@@ -2,4 +2,5 @@
 * text=auto
 
 *.lua text
+*.clj text
 *.java text diff=java
