@@ -49,7 +49,9 @@ pom.xml
 /lib/
 /classes/
 /targets/
+/target/
 .lein-deps-sum
+.lein-repl-history
 
 ### OSX ###
 .DS_Store
