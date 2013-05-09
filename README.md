@@ -14,9 +14,11 @@
 
 * [Lua](http://www.lua.org/)
 * [Java](http://www.java.com/)
+* [Clojure](http://clojure.org/)
 
 ## profile
 ![project euler profile](http://projecteuler.net/profile/ohyecloudy.png)
 
 ## license
-[CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
+[Eclipse Public License](http://www.eclipse.org/legal/epl-v10.html)
+
