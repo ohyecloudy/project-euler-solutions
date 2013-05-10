@@ -2,23 +2,14 @@
 
 [Project Euler](http://projecteuler.net/) 문제 풀이.
 
-## 목적
-
-언어 사용 연습
-
-## setup
-
-    git clone git@github.com:ohyecloudy/project-euler-solutions.git
-
-## 사용 언어
-
-* [Lua](http://www.lua.org/)
-* [Java](http://www.java.com/)
-* [Clojure](http://clojure.org/)
-
 ## profile
+
 ![project euler profile](http://projecteuler.net/profile/ohyecloudy.png)
 
-## license
-[Eclipse Public License](http://www.eclipse.org/legal/epl-v10.html)
+## 소스 코드 삭제
+
+> We hope that you enjoyed solving this problem. Please do not deprive others of going through the same process by publishing your solution outside Project Euler. If you want to share your insights then please go to thread 71 in the discussion forum.
+
+* 71번 문제를 풀고 난 뒤 본 요청 문구.
+* history로 몇 문제 해답은 볼 수 있겠지만 뭐 이정도는 괜찮지 않을까?
 
