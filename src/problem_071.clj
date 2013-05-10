@@ -4,27 +4,36 @@
 ;;;; 
 ;;;; ohyecloudy, 2013-05-09
 
-;;; [2/5, 3/7] 사이에서 가장 큰 수를 구하는 문제가 된다.
+;;; 시도 1 - upper bound를 무식하게 구함 
+;;; * 1부터 하나씩 증가하며 3/7보다 작은지 검사
+;;; * 세월아 네월아
+;;; 시도 2 - upper bound를 b < ad/c로 구함
+
 (ns problem-071)
 
-(defn gcd [a b]
-  (if (zero? a)
-    b
-    (recur (rem b a) a)))
+(defn coprime? [a b]
+  (letfn [(gcd [a b]
+            (if (zero? a)
+              b
+              (recur (rem b a) a)))]
+    (= (gcd a b) 1)))
 
-(defn reduced-proper-fractions [n]
-  (map 
-    #(/ % n) 
-    (filter #(= (gcd % n) 1) (range 1 n))))
+(defn numerator-seq [n]
+  (let [upper (/ (* n 3) 7)]
+    (range
+      (if (= upper (int upper))
+        (dec (int upper))
+        (int upper))
+      0 -1)))
 
-(defn max-in-range [min-val max-val s]
-  (last
-    (take-while #(< % max-val) 
-                (drop-while #(<= % min-val) s))))
+; rpf: reduced-proper-fractions
+(defn max-rpf [n]
+  (let [-max (first (take-while #(coprime? n %) (numerator-seq n)))]
+    (if (nil? -max)
+      0
+      (/ -max n))))
 
-(reduce max 
-        (filter #(not (nil? %))
-                (map #(max-in-range 2/5 3/7
-                                    (reduced-proper-fractions %))
-                     (range 1 1000))))
+(time
+  (reduce max
+          (map max-rpf (range 1 (inc 1000000)))))
 
